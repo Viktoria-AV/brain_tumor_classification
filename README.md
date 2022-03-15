@@ -1,6 +1,6 @@
 # Brain Tumor Classification using Cost-sensitive Neural Networks and Transfer Learning
 
-*readmeunder constructions*
+readme under construction
 
 ![flow_chart_model (4)](https://user-images.githubusercontent.com/20649715/158368324-00df0d35-6ef2-4562-a6f5-121de4bdcf74.png)
 
