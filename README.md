@@ -1,6 +1,5 @@
 # Brain Tumor Classification using Cost-sensitive Neural Networks and Transfer Learning
 
-readme under construction
 
 
 Currently, diagnosis and categorization of brain tumors are still reliant on histopathological eval-
