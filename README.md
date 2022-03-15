@@ -42,5 +42,14 @@ robustness. As a result, augmenting the test set is unnecessary.
 
 
 
+# Research Design
+
+GPU for effective computation
+When training the model, the programmer can be delayed by very long runtimes. With the help
+of the cloud GPU service in Google Colab(https://colab.research.google.com/), this training time can be decreased to a fraction of
+how long it takes on a regular CPU. The running time for the pretrained
+EfficientNet base with a top layer being Convolutional Neural Network was one hour and ten
+minutes on the CPU compared to three minutes on the Google Colab GPU.
+
 
 
