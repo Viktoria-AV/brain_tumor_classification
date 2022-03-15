@@ -31,12 +31,10 @@ the image. The model can become sensitive to these image rotation settings and c
 relationship. Image augmentation needs to be done to make the model indifferent to the qualities
 that are irrelevant for the classification.
 
-
-<img src="https://user-images.githubusercontent.com/20649715/158368652-c4c05aa5-f575-4bad-8c67-ed19a626b9c8.png" width=80% height=40%>
-
+# 
 
 
-
+<img src="https://user-images.githubusercontent.com/20649715/158387434-f1f3c51f-5d23-4c89-bf43-fdc2c45df7bb.png" width=40% height=40%>
 
 
 
