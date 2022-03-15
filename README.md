@@ -22,7 +22,6 @@ The chosen dataset contains 3064 T1-weighted contrast-enhanced MRI images from 2
 with three kinds of brain tumor: glioma, meningioma, and pituitary tumors. All data used is
 publicly available at https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5. The slices are from 3 different planes: sagittal, axial, and coronal. Each patient has a different amount of pictures.
 
-# Descriptive
 The figure shows a sample of images from the dataset with a partially transparent tumor mask
 indicating the location and shape of the tumors. We can see that the slices are from different
 perspectives and different depths. The direction of the eyes is slightly changing per image, but
@@ -31,7 +30,12 @@ the image. The model can become sensitive to these image rotation settings and c
 relationship. Image augmentation needs to be done to make the model indifferent to the qualities
 that are irrelevant for the classification.
 
-# 
+<img src="https://user-images.githubusercontent.com/20649715/158368652-c4c05aa5-f575-4bad-8c67-ed19a626b9c8.png" width=40% height=40%>
+
+The dataset is
+first separated patent-wise into 75% for the model training and 25% for testing. The testing data
+was not augmented, it was only resized. Data augmentation aids the model’s generalization and
+robustness. As a result, augmenting the test set is unnecessary.
 
 
 <img src="https://user-images.githubusercontent.com/20649715/158387434-f1f3c51f-5d23-4c89-bf43-fdc2c45df7bb.png" width=40% height=40%>
