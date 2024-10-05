@@ -2,10 +2,8 @@
 
 
 
-Currently, diagnosis and categorization of brain tumors are still reliant on histopathological eval-
-uation of biopsy samples. Current methods are intrusive, time demanding,
-and subject to human error. These drawbacks highlight the critical nature of developing an au-
-tomated system to classify brain tumors using deep learning. This research aims to develop a
+Currently, diagnosis and categorization of brain tumors are still reliant on histopathological evaluation of biopsy samples. Current methods are intrusive, time demanding,
+and subject to human error. These drawbacks highlight the critical nature of developing an automated system to classify brain tumors using deep learning. This research aims to develop a
 binary classification system for the early diagnosis of the most common malignant (cancerous)
 tumor using a cost-sensitive convolutional neural network and transfer learning with EfficientNet
 architecture.
